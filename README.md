@@ -1,4 +1,4 @@
-# Scoop Bucket Template
+# scoop-lucasoe
 
 <!-- Uncomment the following line after replacing placeholders -->
 
