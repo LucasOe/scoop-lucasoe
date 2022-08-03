@@ -1,0 +1,36 @@
+{
+    "version": "1.0.0",
+    "description": "Maintained fork of @powercord-org - a lightweight @discord client mod focused on simplicity and performance.",
+    "homepage": "https://github.com/replugged-org/replugged",
+    "license": "MIT",
+    "depends": [
+        "git",
+        "nodejs",
+        "discord-ptb"
+    ],
+    "url": "https://raw.githubusercontent.com/replugged-org/replugged/main/changelogs.json",
+    "pre_install": [
+        "cd $dir",
+        "rm changelogs.json",
+        "git clone https://github.com/replugged-org/replugged ."
+    ],
+    "installer": {
+        "script": [
+            "$discord_appdata = Join-Path $env:LocalAppData 'DiscordPTB' 'app-current'",
+            "$discord_scoop = Join-Path $(appdir discord-ptb) 'current'",
+            "New-Item $discord_appdata -ItemType SymbolicLink -Value $discord_scoop -Force",
+            "cd $dir",
+            "npm i",
+            "npm run plug ptb"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "cd $dir",
+            "npm run unplug",
+            "$discord_appdata = Join-Path $env:LocalAppData 'DiscordPTB' 'app-current'",
+            "if (test-path $discord_appdata) { rm $discord_appdata }"
+        ]
+    },
+    "notes": "Be sure to restart the Discord client."
+}
