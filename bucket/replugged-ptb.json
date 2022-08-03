@@ -9,6 +9,7 @@
         "discord-ptb"
     ],
     "url": "https://raw.githubusercontent.com/replugged-org/replugged/main/changelogs.json",
+    "hash": "5f8f7a0cfecbf2e9c36b76598980eac23f67b56d9e4087c362ad5c339624fc68",
     "pre_install": [
         "cd $dir",
         "rm changelogs.json",
