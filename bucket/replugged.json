@@ -18,7 +18,7 @@
     "installer": {
         "script": [
             "$discord_appdata = Join-Path $env:LocalAppData 'Discord'",
-            "$discord_scoop = Join-Path $(appdir discord) 'current'",
+            "$discord_scoop = Join-Path $(appdir discord) 'current' 'app'",
             "New-Item $discord_appdata -ItemType SymbolicLink -Value $discord_scoop -Force",
             "cd $dir",
             "npm ci",
