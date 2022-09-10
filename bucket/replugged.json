@@ -17,11 +17,11 @@
     ],
     "installer": {
         "script": [
-            "$discord_appdata = Join-Path $env:LocalAppData 'Discord' 'app-current'",
+            "$discord_appdata = Join-Path $env:LocalAppData 'Discord'",
             "$discord_scoop = Join-Path $(appdir discord) 'current'",
             "New-Item $discord_appdata -ItemType SymbolicLink -Value $discord_scoop -Force",
             "cd $dir",
-            "npm i",
+            "npm ci",
             "npm run plug stable"
         ]
     },
@@ -29,7 +29,7 @@
         "script": [
             "cd $dir",
             "npm run unplug",
-            "$discord_appdata = Join-Path $env:LocalAppData 'Discord' 'app-current'",
+            "$discord_appdata = Join-Path $env:LocalAppData 'Discord'",
             "if (test-path $discord_appdata) { rm $discord_appdata }"
         ]
     },
