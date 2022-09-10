@@ -18,7 +18,7 @@
     "installer": {
         "script": [
             "$discord_appdata = Join-Path $env:LocalAppData 'DiscordCanary'",
-            "$discord_scoop = Join-Path $(appdir discord-canary) 'current' 'app'",
+            "$discord_scoop = Join-Path $(appdir discord-canary) 'current'",
             "New-Item $discord_appdata -ItemType SymbolicLink -Value $discord_scoop -Force",
             "cd $dir",
             "npm ci",
