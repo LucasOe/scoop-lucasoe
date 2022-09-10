@@ -6,7 +6,7 @@
     "depends": [
         "git",
         "nodejs",
-        "discord-canary"
+        "discord-stable-np"
     ],
     "url": "https://raw.githubusercontent.com/replugged-org/replugged/main/changelogs.json",
     "hash": "0687e0a26ba4b9ebdb6a26646a37bc41e9e00bedb1be2f3a8a8d916dbb0af600",
@@ -17,20 +17,15 @@
     ],
     "installer": {
         "script": [
-            "$discord_appdata = Join-Path $env:LocalAppData 'DiscordCanary' 'app-current'",
-            "$discord_scoop = Join-Path $(appdir discord-canary) 'current'",
-            "New-Item $discord_appdata -ItemType SymbolicLink -Value $discord_scoop -Force",
             "cd $dir",
             "npm ci",
-            "npm run plug canary"
+            "npm run plug stable"
         ]
     },
     "uninstaller": {
         "script": [
             "cd $dir",
-            "npm run unplug",
-            "$discord_appdata = Join-Path $env:LocalAppData 'DiscordCanary'",
-            "if (test-path $discord_appdata) { rm $discord_appdata }"
+            "npm run unplug stable"
         ]
     },
     "notes": "Be sure to restart the Discord client."
