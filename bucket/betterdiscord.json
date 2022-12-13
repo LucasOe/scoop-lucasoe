@@ -3,7 +3,7 @@
     "description": "A simple standalone program which automates the installation, removal and maintenance of BetterDiscord.",
     "homepage": "https://github.com/BetterDiscord/Installer",
     "license": "Unknown",
-    "url": "https://github.com/BetterDiscord/Installer/releases/download/v1.1.2/BetterDiscord-Windows.exe",
+    "url": "https://github.com/BetterDiscord/Installer/releases/download/v1.2.0/BetterDiscord-Windows.exe",
     "hash": "4e7601cd25ffd125e17d34003202d5fd34dcae5969117d58a21df2741f551951",
     "shortcuts": [
         [
