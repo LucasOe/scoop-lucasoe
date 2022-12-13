@@ -4,7 +4,7 @@
     "homepage": "https://github.com/BetterDiscord/Installer",
     "license": "Unknown",
     "url": "https://github.com/BetterDiscord/Installer/releases/download/v1.2.0/BetterDiscord-Windows.exe",
-    "hash": "4e7601cd25ffd125e17d34003202d5fd34dcae5969117d58a21df2741f551951",
+    "hash": "62101b7f23db65cdeb32e572b25631aee3e47c41949846c0f9ad3697b86cabbe",
     "shortcuts": [
         [
             "BetterDiscord-Windows.exe",
