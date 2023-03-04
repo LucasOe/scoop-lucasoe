@@ -11,6 +11,7 @@
             "GDLauncher"
         ]
     ],
+    "persist": "data\\instances",
     "checkver": {
         "github": "https://github.com/gorilla-devs/GDLauncher"
     },
