@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://dl.google.com/release2/chrome/ad57zh2rqgyygvzpqfaswyzabkcq_112.0.5615.87/112.0.5615.87_chrome_installer.exe#/dl.7z",
-            "hash": "058a382779270fefd262a55b573e0d6a8501771c7dc52f41993fc440b5dde5ff"
+            "hash": "f82a4b16fb3fe025e5f3ec398c96a30c810e880737de3dea75a7b22a4140e7fd"
         },
         "32bit": {
             "url": "https://dl.google.com/release2/chrome/pzcg6zfscx4szonjgmx27rhfoi_112.0.5615.87/112.0.5615.87_chrome_installer.exe#/dl.7z",
