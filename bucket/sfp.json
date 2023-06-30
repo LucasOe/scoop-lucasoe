@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/PhantomGamers/SFP/releases/download/0.0.45-alpha/SFP_UI-win10-x64-SelfContained.zip",
+            "url": "https://github.com/PhantomGamers/SFP/releases/download/0.0.48/SFP_UI-win10-x64-SelfContained.zip",
             "hash": "b0495bc8c826d49b9895b923769025658d74a8af90c69283ccf03ce465c0411b"
         }
     },
@@ -17,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/PhantomGamers/SFP/releases/download/$version/SFP_UI-SelfContained-win10-x64.zip"
+                "url": "https://github.com/PhantomGamers/SFP/releases/download/$version/SFP_UI-win10-x64-SelfContained.zip"
             }
         }
     }
