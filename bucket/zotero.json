@@ -1,0 +1,19 @@
+{
+	"version": "6.0.30",
+	"description": "Open-source reference management software to manage bibliographic data and related research materials.",
+	"homepage": "https://www.zotero.org/",
+	"license": "AGPL-3.0-only",
+	"url": "https://download2.portableapps.com/portableapps/ZoteroPortable/ZoteroPortable_6.0.30.paf.exe#/dl.7z",
+	"hash": "8a7770da2c276d0c9ec5db7ae13086cb4825c70238e018110202c8aada79f187",
+	"bin": "ZoteroPortable.exe",
+	"shortcuts": [["ZoteroPortable.exe", "Zotero"]],
+	"post_install": ["Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"],
+	"persist": "Data",
+	"checkver": {
+		"url": "https://portableapps.com/apps/office/zotero-portable",
+		"regex": "Version ([\\d.]+) for Windows"
+	},
+	"autoupdate": {
+		"url": "https://download2.portableapps.com/portableapps/ZoteroPortable/ZoteroPortable_$version.paf.exe#/dl.7z"
+	}
+}
