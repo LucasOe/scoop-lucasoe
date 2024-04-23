@@ -8,20 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": [
-                "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64#/dl.7z"
-            ],
-            "hash": [
-                "e19e717b5b7bf0130b04878dcef2d332aa1c6fad6407fff65613d76a1d5bd6eb"
-            ]
+            "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64#/dl.7z",
+            "hash": "e19e717b5b7bf0130b04878dcef2d332aa1c6fad6407fff65613d76a1d5bd6eb"
         },
         "32bit": {
-            "url": [
-                "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86#/dl.7z"
-            ],
-            "hash": [
-                "63a843580caa40726490d8b735d2b0fdec19e630f18aeded89e18d31ebd37cb1"
-            ]
+            "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86#/dl.7z",
+            "hash": "63a843580caa40726490d8b735d2b0fdec19e630f18aeded89e18d31ebd37cb1"
         }
     },
     "pre_install": [
