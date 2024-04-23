@@ -1,5 +1,8 @@
 // Configure PSScriptAnalyzer settings
 {
+    "[json][jsonc]": {
+        "editor.defaultFormatter": null
+    },
     "[powershell]": {
         "editor.formatOnSave": true
     },
