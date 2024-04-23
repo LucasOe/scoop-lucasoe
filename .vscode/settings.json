@@ -1,7 +1,7 @@
 // Configure PSScriptAnalyzer settings
 {
     "[json][jsonc]": {
-        "editor.defaultFormatter": null
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "[powershell]": {
         "editor.formatOnSave": true
@@ -13,7 +13,9 @@
     "json.schemas": [
         {
             "url": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
-            "fileMatch": ["bucket/**/*.json"]
+            "fileMatch": [
+                "bucket/**/*.json"
+            ]
         }
     ],
     "files.exclude": {
