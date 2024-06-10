@@ -9,11 +9,11 @@
     "architecture": {
         "64bit": {
             "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64#/dl.7z",
-            "hash": "836ef537c428051b15b468f755575bfb798e99a73b6bca88b315dac0c76b3673"
+            "hash": "1e8577b46160d3ff03d36faf2651573a77cd2c41495cd11863e246d4a31b0ca9"
         },
         "32bit": {
             "url": "https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86#/dl.7z",
-            "hash": "44ba71ddbd28ca0ffe37e68c4074b90c7d54a093c28e2a2e575361fc4357e6bc"
+            "hash": "1acf137396d46e2d7c0b008dfe9247f03eafdb1bda8a08de008a02d9e5f73738"
         }
     },
     "pre_install": [
