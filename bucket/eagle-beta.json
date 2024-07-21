@@ -12,18 +12,15 @@
     "bin": [
         [
             "Eagle.exe",
-            "Eagle",
-            "--user-data-dir=\"$dir\\User Data\""
+            "Eagle"
         ]
     ],
     "shortcuts": [
         [
             "Eagle.exe",
-            "Eagle",
-            "--user-data-dir=\"$dir\\User Data\""
+            "Eagle"
         ]
     ],
-    "persist": "User Data",
     "installer": {
         "script": "sudo Start-Process -Filepath \"$dir\\installer.exe\" -WorkingDirectory \"$dir\" -ArgumentList \"/S /D=$dir\" -Wait"
     },
