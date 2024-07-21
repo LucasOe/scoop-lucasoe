@@ -35,10 +35,10 @@
         "}"
     ],
     "checkver": {
+        "url": "https://en.eagle.cool/check-for-update",
         "jsonpath": "$.links.windows",
         "regex": "//(?<url>eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-(?<ver>[\\d.]+)-build(?<build>\\d+)\\.exe)",
-        "replace": "${ver}.0.${build}",
-        "url": "https://en.eagle.cool/check-for-update"
+        "replace": "${ver}.0.${build}"
     },
     "autoupdate": {
         "url": "https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-$majorVersion.$minorVersion-build$buildVersion.exe#/installer.exe"
