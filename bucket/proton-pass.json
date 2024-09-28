@@ -1,0 +1,29 @@
+{
+    "version": "1.23.0",
+    "description": "Download Proton Pass, fully-featured password manager software for Android, iOS, Chrome, Firefox, Brave and Edge",
+    "homepage": "https://proton.me/pass",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://proton.me/download/pass/windows/ProtonPass_Setup_1.23.0.exe#/dl.zip",
+            "hash": "8e38c5ed762070187bca2c57ed123f62a63154c0b64f0ba8c9389e13d9576952"
+        }
+    },
+    "extract_to": "packages",
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\packages\\ProtonPass-*-full.nupkg\" -ExtractDir \"lib\\net45\" -DestinationPath \"$dir\" -Removal | Out-Null"
+    ],
+    "shortcuts": [
+        [
+            "ProtonPass.exe",
+            "Proton Pass"
+        ]
+    ],
+    "checkver": {
+        "url": "https://proton.me/download/pass/windows/version.json",
+        "jsonpath": "$.Releases[0].Version"
+    },
+    "autoupdate": {
+        "url": "https://proton.me/download/pass/windows/ProtonPass_Setup_$version.exe#/dl.zip"
+    }
+}
