@@ -15,10 +15,6 @@
         "github": "https://github.com/Sidekick-Poe/Sidekick"
     },
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/Sidekick-Poe/Sidekick/releases/download/v$version/Sidekick-windows-stable-Portable.zip"
-            }
-        }
+        "url": "https://github.com/Sidekick-Poe/Sidekick/releases/download/v$version/Sidekick-windows-stable-Portable.zip"
     }
 }
