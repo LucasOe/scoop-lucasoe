@@ -25,7 +25,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://proton.me/download/drive/windows/version.json",
+        "url": "https://proton.me/download/drive/windows/x64/v1/version.json",
         "jsonpath": "$.Releases[0].Version"
     },
     "autoupdate": {
