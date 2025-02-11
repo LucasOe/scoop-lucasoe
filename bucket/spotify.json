@@ -6,7 +6,7 @@
         "identifier": "Freeware",
         "url": "https://www.spotify.com/legal/end-user-agreement/"
     },
-    "url": "https://download.scdn.co/SpotifyFullSetup.exe",
+    "url": "https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.57.463.g4f748c64-3096.exe",
     "hash": "c8f01ea8a1c8fce3bdb2664c2c5047f619ca75fa99e999f1ae81999f4ee01710",
     "installer": {
         "script": [
@@ -35,6 +35,6 @@
         "jsonpath": "$..[?(@.fullversion)].fullversion"
     },
     "autoupdate": {
-        "url": "https://download.scdn.co/SpotifyFullSetup.exe"
+        "url": "https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-$version.exe"
     }
 }
