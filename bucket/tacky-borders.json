@@ -1,10 +1,10 @@
 {
-    "version": ".1.2.0",
+    "version": "1.1.0",
     "description": "Customizable borders for Windows 11 and 10",
     "homepage": "https://github.com/lukeyou05/tacky-borders",
     "license": "MIT",
-    "url": "https://github.com/lukeyou05/tacky-borders/releases/download/v.1.2.0/tacky-borders-v.1.2.0.7z",
-    "hash": "745c8257d5bd08dfef6c098976ef7d7840b7f59eccc9f569fe04a6acb08c1bff",
+    "url": "https://github.com/lukeyou05/tacky-borders/releases/download/v1.1.0/tacky-borders-v1.1.0.7z",
+    "hash": "ecf74d0fa2cb008c94f0e1a02b5afccecd53277f56a6d0fa1337dfcb375d20a4",
     "shortcuts": [
         [
             "tacky-borders.exe",
