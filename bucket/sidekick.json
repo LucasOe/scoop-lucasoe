@@ -1,10 +1,10 @@
 {
-    "version": "2025.409.106",
+    "version": "2025.410.155",
     "description": "A companion trade tool for Path of Exile and Path of Exile 2.",
     "homepage": "https://github.com/Sidekick-Poe/Sidekick",
     "license": "MIT",
-    "url": "https://github.com/Sidekick-Poe/Sidekick/releases/download/v2025.409.106/Sidekick-windows-stable-Portable.zip",
-    "hash": "79ece3f9a5a88b642f806e0415510fb0d0e045889d78c0710d15471ab1b8d64e",
+    "url": "https://github.com/Sidekick-Poe/Sidekick/releases/download/v2025.410.155/Sidekick-windows-stable-Portable.zip",
+    "hash": "0b3576a1e7fbd3d65e29a20ba9ee0a15585c9936ae3d02455f6f7aa2568ee2a0",
     "shortcuts": [
         [
             "Sidekick.exe",
