@@ -1,12 +1,12 @@
 {
-    "version": "1.31.0",
+    "version": "1.31.1",
     "description": "Free and fully encrypted password manager to keep your login credentials safe.",
     "homepage": "https://proton.me/pass",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://proton.me/download/pass/windows/ProtonPass_Setup_1.31.0.exe#/dl.zip",
-            "hash": "4af9ab84586fa4332e878aeba1aa3c7c58d577b1dd74533336ba51367a67cc90"
+            "url": "https://proton.me/download/pass/windows/ProtonPass_Setup_1.31.1.exe#/dl.zip",
+            "hash": "f1de7e50da023a5b83b933ff546b63bf6597f951f17df2cbae28efd86b94abda"
         }
     },
     "extract_to": "_tmp",
