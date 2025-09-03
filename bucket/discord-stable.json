@@ -127,9 +127,15 @@
         ]
     ],
     "checkver": {
-        "url": "https://updates.discord.com/distributions/app/manifests/latest?channel=stable&platform=win&arch=x64",
-        "jsonpath": "$.full.url",
-        "regex": "x64/(\\d.+)/"
+        "script": [
+            "$url = 'https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64'",
+            "$request = [System.Net.WebRequest]::Create($url)",
+            "$request.AllowAutoRedirect = $false",
+            "$location = $request.GetResponse().GetResponseHeader('Location')",
+            "$version = ($location -split '/' | Select-Object -Last 1 -Skip 1)",
+            "$version"
+        ],
+        "regex": "(\\S+)"
     },
     "autoupdate": {
         "architecture": {
