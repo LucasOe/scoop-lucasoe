@@ -1,13 +1,13 @@
 {
-    "version": "1.2.79.417.g0e9f05fc-126",
+    "version": "1.2.79.418.g617d91ef-157",
     "description": "A digital music service that gives you access to millions of songs.",
     "homepage": "https://www.spotify.com/",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.spotify.com/legal/end-user-agreement/"
     },
-    "url": "https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.79.417.g0e9f05fc-126.exe",
-    "hash": "11b2b8b882d61d09f5853d7a81f5ffc1d2a55f7e5cb1bf8f0a1f7184523824d6",
+    "url": "https://upgrade.scdn.co/upgrade/client/win32-x86_64/spotify_installer-1.2.79.418.g617d91ef-157.exe",
+    "hash": "b5cc3e10b73782c12c4c2942ee9dee30af45c4d7ef640c5acd6245a1dc4d95c8",
     "installer": {
         "script": [
             "Start-Process -Wait \"$dir\\$fname\" -ArgumentList '/extract', \"`\"$dir`\"\"",
